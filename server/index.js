@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use ('/', router);
 
-const PORT = 1000;
+const PORT = 10000;
 
 DBconnection();
 
